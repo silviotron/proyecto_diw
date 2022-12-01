@@ -1,19 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-
-</html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The building company</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-    <style>
-        /* Please ❤ this if you like it! */
 
 
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+:root {
+    --color-primario: #FFBA00;
+    --color-secundario: #ffffff;
+    --color-secundario-1: #f9f9f9;
+    --color-terciario: #061b49;
+    --color-letra: #263a4f;
+    --color-letra-1: #6a8695;
+    --color-letra-2: #ffffff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
         body {
             font-family: 'Montserrat', sans-serif;
@@ -359,46 +356,12 @@
                 font-size: 8vh;
             }
         }
-    </style>
-
-    <script>
-        window.console = window.console || function (t) { };
-    </script>
 
 
 
-    <script>
-        if (document.location.search.match(/type=embed/gi)) {
-            window.parent.postMessage("resize", "*");
-        }
-    </script>
 
 
-</head>
-
-<body translate="no">
-    <a href="https://front.codes/" class="logo" target="_blank">
-        <img src="https://assets.codepen.io/1462889/fcy.png" alt="">
-    </a>
-
-    <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon">
-    <label for="menu-icon"></label>
-    <nav class="nav">
-        <ul class="pt-5">
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Studio</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-
-    <div class="section-center">
-        <h1 class="mb-0">Pure CSS Menu</h1>
-    </div>
-    <script
-        src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
 
 
-</body>
 
-</html>
+
