@@ -1,16 +1,7 @@
+        /* Please ❤ this if you like it! */
 
 
-:root {
-    --color-primario: #FFBA00;
-    --color-secundario: #ffffff;
-    --color-secundario-1: #f9f9f9;
-    --color-terciario: #061b49;
-    --color-letra: #263a4f;
-    --color-letra-1: #6a8695;
-    --color-letra-2: #ffffff;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
         body {
             font-family: 'Montserrat', sans-serif;
