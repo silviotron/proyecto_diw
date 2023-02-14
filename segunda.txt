@@ -1,0 +1,11 @@
+1.a.I 
+son imágenes vectoriales porque utilizo archivos png, jpg y jpeg
+1.a.II
+si, porque estan optimizados y los soportan todos los navegadores
+1.a.III
+abri la web de conversion, subi el archivo y seleccione a que convertirlo, lo converti y lo descargue
+1.a.IV
+registraria la propiedad, determinaria la licencia y colocaria una nota de derechos de autor en la web
+
+1.b.I
+un video sobre nosotros y sonido de obras aleatorios
