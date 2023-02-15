@@ -9,6 +9,7 @@ body {
   background-color: #000000;
   width: 100%;
   margin: 0;
+  overflow-x: hidden;
 }
 
 html {
@@ -100,7 +101,9 @@ section {
   width: 100%;
   margin: auto;
   position: absolute;
-  bottom: 10vh;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 .dentro {
   width: 70%;
@@ -505,7 +508,13 @@ p {
     display: none;
   }
   .contenido {
-    bottom: 1vh;
+    padding-bottom: 1vh;
   }
 
+}
+iframe {
+  width: 80%;
+  aspect-ratio: 16/9;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
