@@ -8,48 +8,18 @@ abri la web de conversion, subi el archivo y seleccione a que convertirlo, lo co
 registraria la propiedad, determinaria la licencia y colocaria una nota de derechos de autor en la web
 
 1.b.I
-un video sobre nosotros y sonido de obras aleatorios
+hay un video de youtube con iframe en cada seccion de obras representando cada obra
+en el index si le das al boton del logo suena un sonido de una sierra circular cortando 
 
 1.c.I
-una animación vinculada al scroll
-html:
-<div class="progress"></div>
-<script>
-window.addEventListener('scroll', () => {
-  document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
-}, false);
-</script>
-css:
-body {
-  min-height: 500vh;
-  background-color: rgb(139, 201, 228);
-}
-.progress {
-  height: 3px;
-  width: 0%;
-  background-color: #fff;
-  position: fixed;
-  top: 0;
-  left: 0;
-  animation: progress 1s linear;
-}
-@keyframes progress {
-  to {
-    width: 100%;
-  }
-}
-:root * {
-  /* Pause the animation */
-  animation-play-state: paused;
-  /* Bind the animation to scroll */
-  animation-delay: calc(var(--scroll) * -1s);
-  /* These last 2 properites clean up overshoot weirdness */
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-}
+una animación de una barra horizontal en la parte superior vinculada al scroll lateral
 
 1.D.I
-ya los tengo
+tengo varios elementos interactivos que ya estaban incluidos procedo a nombrar 3:
+-el boton del logo que se encuentran en la esquina superior izquierda que tienen un hover que intercambia sus colores
+-los botones situados en cada seccion que son enlaces que tienen un hover que los pone mas oscuros
+-los enlaces a las paginas del menu que tienen un hover que tiene una transicion muy animada
+el sentido de estos elementos es permitir a los usuarios interactuar con el contenido y que la experiencia del usuario sea mas atractiva y agradable
 
 1.e.I
 actualizada(nose)
