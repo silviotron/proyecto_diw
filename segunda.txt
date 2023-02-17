@@ -9,3 +9,74 @@ registraria la propiedad, determinaria la licencia y colocaria una nota de derec
 
 1.b.I
 un video sobre nosotros y sonido de obras aleatorios
+
+1.c.I
+una animación vinculada al scroll
+html:
+<div class="progress"></div>
+<script>
+window.addEventListener('scroll', () => {
+  document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+}, false);
+</script>
+css:
+body {
+  min-height: 500vh;
+  background-color: rgb(139, 201, 228);
+}
+.progress {
+  height: 3px;
+  width: 0%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  animation: progress 1s linear;
+}
+@keyframes progress {
+  to {
+    width: 100%;
+  }
+}
+:root * {
+  /* Pause the animation */
+  animation-play-state: paused;
+  /* Bind the animation to scroll */
+  animation-delay: calc(var(--scroll) * -1s);
+  /* These last 2 properites clean up overshoot weirdness */
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+1.D.I
+ya los tengo
+
+1.e.I
+actualizada(nose)
+
+2.a
+-
+
+2.b
+-
+
+2.c
+-
+
+2.d
+-
+
+2.e
+-
+
+3.a
+-
+
+3.b
+-
+
+3.c
+-
+
+3.d
+-
