@@ -58,7 +58,7 @@ section {
 }
 
 #noticias {
-  background-image: url(fotos/FOTO2.jpeg), radial-gradient(#000000ab, black 90%);
+  background-image: url(fotos/FOTO2.jpg), radial-gradient(#000000ab, black 90%);
 }
 
 #contacto,
@@ -84,7 +84,7 @@ section {
   background-image: url(fotos/FOTO9.jpg), radial-gradient(#000000ab, black 90%);
 }
 #noticia3 {
-  background-image: url(fotos/FOTO10.jpeg),
+  background-image: url(fotos/FOTO10.jpg),
     radial-gradient(#000000ab, black 90%);
 }
 
