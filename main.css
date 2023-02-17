@@ -137,7 +137,7 @@ a.logo:hover,
 a.logo:active {
   text-decoration: none;
 }
-a.logo:hover div {
+div.logo:hover  {
   background-color: #ffeba7;
   color: #353746;
   -webkit-text-stroke: 2px #353746;
@@ -473,6 +473,9 @@ p {
 }
 
 @media screen and (max-width: 991px) {
+  body{
+    padding-top: 140px;
+  }
   .dentro {
     width: 90%;
   }
@@ -517,4 +520,29 @@ iframe {
   aspect-ratio: 16/9;
   margin-left: 50%;
   transform: translateX(-50%);
+}
+/*barra horizontal*/
+.progress {
+  height: 3px;
+  width: 0%;
+  background-color: #ffeba7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  animation: progress 1s linear;
+}
+@keyframes progress {
+  to {
+    width: 100%;
+  }
+}
+:root * {
+  /* Pause the animation */
+  animation-play-state: paused;
+  /* Bind the animation to scroll */
+  animation-delay: calc(var(--scroll) * -1s);
+  /* These last 2 properites clean up overshoot weirdness */
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
 }

@@ -15,14 +15,15 @@
 </head>
 
 <body>
-    <div class="superior">
-    </div>
-    <a href="index.html" class="logo">
-        <div class="logo">
+    <div class="progress"></div>
+    <div class="superior"></div>
+        <div class="logo" id="logo">
             TBC
         </div>
-
-    </a>
+        <audio  id="sonido">
+            <source src="sierra.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
 
     <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon">
     <label for="menu-icon"></label>
@@ -49,6 +50,7 @@
     <section id="obras">
         <div class="contenido">
             <div class="dentro">
+
                 <h2>Obras</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus scelerisque imperdiet
                     lorem quis pulvinar. Nam eu viverra neque, et ullamcorper tellus. Vivamus in tellus neque.
@@ -124,5 +126,17 @@
         </div>
     </footer>
 </body>
+<script>
+    window.addEventListener('scroll', () => {
+        document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+    }, false);
+
+
+    document.getElementById('logo').addEventListener('click', function () {
+        document.getElementById('sonido').play()
+    })
+
+
+</script>
 
 </html>
